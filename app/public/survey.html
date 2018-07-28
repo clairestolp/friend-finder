@@ -416,7 +416,7 @@
                 data.forEach(function (match) {
                     const card = $('<div>').addClass('card');
                     const cardImg = $('<div>').addClass('card-image');
-                    const figure = $('<figure>').addClass('image');
+                    const figure = $('<figure>').addClass('image max-width');
                     const image = $('<img>')
                         .attr("src", match.profile)
                         .attr("alt", match.name + "image");
