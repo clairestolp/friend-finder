@@ -1,0 +1,13 @@
+#hero-home {
+    background-image: url('../img/matheus-ferrero-228716-unsplash.jpg');
+    background-size: cover;
+}
+
+#hero-survey {
+    background-image: url('../img/david-marcu-114194-unsplash.jpg');
+    background-size: cover;
+}
+
+.cus-width--500px {
+    width: 500px;
+}

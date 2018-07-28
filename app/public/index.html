@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Friend Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+
+</head>
+<body>
+    <section class="hero is-fullheight is-primary" id="hero-home">
+
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <div class="navbar-item">
+                            <a href=""><h1 class="is-title has-text-black">Claire Stolp</h1></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h1 class="title">
+                        Friend Finder
+                    </h1>
+                    <h2 class="subtitle">
+                        Your place to find friends.
+                    </h2>
+                    <br>
+                    <h2>
+                        Click the button to take the survey and discover your new best friends!
+                    </h2>
+                    <br>
+                    <button class="button is-danger" id="surveyLink">
+                        Find Friends!
+                    </button>
+                </div>
+            </div>
+                
+            <div class="hero-foot">
+                <nav class="tabs is-boxed">
+                    <div class="container">
+                        <ul>
+                            <li><a id="api">Friend Finder API</a></li>
+                            <li><a href="">Git Hub</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script type="text/javascript">
+    $('#surveyLink').on('click', function(){
+        window.location = '/survey';
+    });
+
+    $('#api').on('click', function(){
+        window.location = '/api/friends';
+    });
+</script>
+</html>

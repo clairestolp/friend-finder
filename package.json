@@ -1,0 +1,25 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "A basic friend finding app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon server.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clairestolp/friend-finder.git"
+  },
+  "author": "Claire Stolp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clairestolp/friend-finder/issues"
+  },
+  "homepage": "https://github.com/clairestolp/friend-finder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "mysql": "^2.16.0",
+    "path": "^0.12.7"
+  }
+}
