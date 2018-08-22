@@ -1,5 +1,7 @@
 # friend-finder
 
+![Demo](https://github.com/clairestolp/friend-finder/blob/master/demo.gif?raw=true)
+
 [Click here to see Friend Finder live](https://agile-shelf-41464.herokuapp.com/ "Friend Finder")
 A mock friend finding app that matches the user with other users based on a short quiz.
 
